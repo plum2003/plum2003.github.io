@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jiale Li | Technical Documentation Support</title>
-  <meta name="description" content="Technical documentation, README improvement, and research workflow support by Jiale Li.">
+  <title>Jiale Li | Technical Documentation Services</title>
+  <meta name="description" content="Technical documentation, README improvement, and research workflow support services by Jiale Li.">
   <style>
     :root {
       color-scheme: light;
@@ -13,9 +13,7 @@
       background: #f5f7fa;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
@@ -23,7 +21,7 @@
     }
 
     main {
-      max-width: 980px;
+      max-width: 1040px;
       margin: 0 auto;
       padding: 56px 20px 72px;
     }
@@ -43,7 +41,7 @@
 
     h1 {
       margin: 0 0 14px;
-      max-width: 780px;
+      max-width: 820px;
       font-size: 38px;
       line-height: 1.18;
       letter-spacing: 0;
@@ -61,7 +59,7 @@
     }
 
     p {
-      max-width: 760px;
+      max-width: 780px;
       margin: 0 0 14px;
     }
 
@@ -71,9 +69,7 @@
       text-decoration: none;
     }
 
-    a:hover {
-      text-decoration: underline;
-    }
+    a:hover { text-decoration: underline; }
 
     ul {
       margin: 10px 0 0;
@@ -110,29 +106,48 @@
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 16px;
       margin-top: 18px;
     }
 
-    .item {
-      min-height: 150px;
+    .item, .product {
       border: 1px solid #d7dee8;
       border-radius: 8px;
       padding: 18px;
       background: #ffffff;
     }
 
-    .muted {
-      color: #616e7c;
+    .item { min-height: 150px; }
+
+    .product {
+      display: flex;
+      flex-direction: column;
+      min-height: 300px;
     }
+
+    .price {
+      margin: 8px 0 10px;
+      color: #0f766e;
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    .muted { color: #616e7c; }
 
     .section-band {
-      margin-top: 28px;
+      margin-top: 18px;
       padding: 18px;
       border: 1px solid #d7dee8;
       border-radius: 8px;
       background: #ffffff;
+    }
+
+    .note {
+      border-left: 4px solid #0f766e;
+      padding: 12px 14px;
+      background: #eef8f6;
+      color: #243b53;
     }
 
     footer {
@@ -144,18 +159,9 @@
     }
 
     @media (max-width: 620px) {
-      main {
-        padding-top: 36px;
-      }
-
-      h1 {
-        font-size: 30px;
-      }
-
-      .actions {
-        display: grid;
-      }
-
+      main { padding-top: 36px; }
+      h1 { font-size: 30px; }
+      .actions { display: grid; }
       .button {
         justify-content: center;
         width: 100%;
@@ -166,9 +172,9 @@
 <body>
   <main>
     <header>
-      <p class="eyebrow">Independent technical documentation support</p>
+      <p class="eyebrow">Independent technical documentation services</p>
       <h1>Jiale Li</h1>
-      <p class="lead">I help with README improvement, open-source documentation, research workflow notes, and small R/Python data examples.</p>
+      <p class="lead">I provide small technical documentation, README improvement, open-source contribution support, and research workflow writing services.</p>
       <div class="actions">
         <a class="button" href="https://github.com/plum2003">GitHub profile</a>
         <a class="button secondary" href="https://github.com/plum2003/Research-1">Research notes</a>
@@ -176,21 +182,56 @@
     </header>
 
     <section>
-      <h2>Services</h2>
+      <h2>Service Products</h2>
+      <p class="muted">The following service packages are available for small software, open-source, and research workflow projects. Final scope and price are confirmed before payment.</p>
       <div class="grid">
-        <section class="item">
-          <h3>README and project documentation</h3>
-          <p class="muted">Clear project summaries, setup steps, usage examples, FAQ sections, and pull request descriptions for small software projects.</p>
+        <section class="product">
+          <h3>README Improvement Package</h3>
+          <p class="price">USD 10-25</p>
+          <p class="muted">For small repositories that need a clearer project introduction and setup instructions.</p>
+          <ul>
+            <li>Project summary rewrite</li>
+            <li>Installation and usage steps</li>
+            <li>Basic FAQ or troubleshooting notes</li>
+            <li>Markdown formatting cleanup</li>
+          </ul>
         </section>
-        <section class="item">
-          <h3>Open-source contribution support</h3>
-          <p class="muted">Documentation cleanup, issue reproduction notes, broken-link checks, terminology cleanup, and beginner-friendly contribution materials.</p>
+        <section class="product">
+          <h3>Open-source PR Support Package</h3>
+          <p class="price">USD 15-40</p>
+          <p class="muted">For documentation issues, bounty tasks, and small contributor-facing improvements.</p>
+          <ul>
+            <li>Issue reproduction notes</li>
+            <li>Pull request description draft</li>
+            <li>Documentation-only change plan</li>
+            <li>One focused revision after feedback</li>
+          </ul>
         </section>
-        <section class="item">
-          <h3>Research workflow notes</h3>
-          <p class="muted">Structured notes for data cleaning, summary statistics, reproducible examples, and early-stage R/Python learning materials.</p>
+        <section class="product">
+          <h3>Research Workflow Notes Package</h3>
+          <p class="price">USD 20-50</p>
+          <p class="muted">For research-oriented notes, small R/Python examples, and data workflow summaries.</p>
+          <ul>
+            <li>Data cleaning checklist</li>
+            <li>Summary statistics notes</li>
+            <li>Small R or Python example</li>
+            <li>Clear Markdown documentation</li>
+          </ul>
         </section>
       </div>
+    </section>
+
+    <section>
+      <h2>Order and Payment Process</h2>
+      <div class="section-band">
+        <ol>
+          <li>Send the repository link, document, or task description through GitHub contact.</li>
+          <li>I review the scope and confirm the service package, price, and delivery format.</li>
+          <li>Payment can be arranged through PayPal after scope confirmation.</li>
+          <li>The deliverable is provided as Markdown, HTML, plain text, R, Python, or a GitHub pull request draft.</li>
+        </ol>
+      </div>
+      <p class="note">This site is a product and service information page. It does not process checkout directly; payment is arranged after project scope is confirmed.</p>
     </section>
 
     <section>
@@ -207,24 +248,6 @@
     </section>
 
     <section>
-      <h2>Work Process</h2>
-      <div class="grid">
-        <section class="item">
-          <h3>1. Review</h3>
-          <p class="muted">I inspect the repository, document, or task description and identify the smallest useful scope.</p>
-        </section>
-        <section class="item">
-          <h3>2. Draft</h3>
-          <p class="muted">I prepare a clear Markdown, HTML, R, Python, or text deliverable with practical notes.</p>
-        </section>
-        <section class="item">
-          <h3>3. Revise</h3>
-          <p class="muted">I make one focused revision pass when the reviewer or maintainer provides feedback.</p>
-        </section>
-      </div>
-    </section>
-
-    <section>
       <h2>Public Work</h2>
       <p>Current public repositories include a personal GitHub profile, a simple portfolio site, and research learning notes.</p>
       <ul>
@@ -236,12 +259,12 @@
 
     <section>
       <h2>Contact</h2>
-      <p>For open-source bounty work, documentation support, or small research workflow tasks, contact me through GitHub.</p>
+      <p>For service inquiries, open-source bounty work, documentation support, or small research workflow tasks, contact me through GitHub.</p>
       <p><a href="https://github.com/plum2003">https://github.com/plum2003</a></p>
     </section>
 
     <footer>
-      <p>Jiale Li | Central South University | Technical documentation and research workflow support</p>
+      <p>Jiale Li | Central South University | Technical documentation services and research workflow support</p>
     </footer>
   </main>
 </body>
