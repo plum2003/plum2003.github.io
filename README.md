@@ -2,6 +2,24 @@
 
 Independent technical documentation and research workflow support for open-source and small software projects.
 
+## Research Utilities
+
+### qPCR Fold Change Calculator
+
+Browser-based 2^-ddCT calculator for qPCR exports.
+
+Inputs:
+
+- Sample Name / Sample
+- Target Name / Target / Gene
+- CT / Ct / Cq
+
+Outputs:
+
+- Detailed Delta CT, ddCT, and fold-change table
+- GraphPad-ready wide CSV
+- Replicate outlier review log
+
 ## Service Products
 
 ### README Improvement Package
